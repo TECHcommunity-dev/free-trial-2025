@@ -1,0 +1,24 @@
+theme_settings:
+  embed_marketo_account_id:
+    default: "096-VEV-482"
+    type: text
+    label: "Marketo Account ID"
+    description: "Your Marketo account ID (e.g., 096-VEV-482)."
+
+  embed_marketo_form_id:
+    default: "1037"
+    type: text
+    label: "Marketo Form ID"
+    description: "Your Marketo form ID (numeric, e.g., 1037)."
+
+  embed_marketo_topic_id:
+    default: "235241"
+    type: text
+    label: "Topic ID to trigger embed"
+    description: "Enter the topic ID where you want the form to be embedded (e.g., 235241)."
+
+  embed_marketo_post_number:
+    default: "1"
+    type: text
+    label: "Post Number to trigger embed"
+    description: "Enter the post_number within the topic where the form should appear (e.g., 1 for the first post)."
