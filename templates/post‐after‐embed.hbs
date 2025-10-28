@@ -1,0 +1,10 @@
+{{!-- This template renders the Marketo embed after the specified post_number in the specified topic --}}
+{{#if (and (eq this.topic.id (parseInt themeSetting "embed_marketo_topic_id")) (eq this.post.post_number (parseInt themeSetting "embed_marketo_post_number")))}}
+  <div class="marketo-embed-wrapper">
+    <script src="//discover.softwareag.com/js/forms2/js/forms2.min.js" async></script>
+    <form id="mktoForm_{{themeSetting "embed_marketo_form_id"}}"></form>
+    <script>
+      MktoForms2.loadForm("//discover.softwareag.com", "{{themeSetting "embed_marketo_account_id"}}", {{themeSetting "embed_marketo_form_id"}});
+    </script>
+  </div>
+{{/if}}
