@@ -1,0 +1,7 @@
+<div class="marketo-embed-wrapper">
+  <script src="//discover.softwareag.com/js/forms2/js/forms2.min.js" async></script>
+  <form id="mktoForm_{{this.args.settings.embed_marketo_form_id}}"></form>
+  <script>
+    MktoForms2.loadForm("//discover.softwareag.com", "{{this.args.settings.embed_marketo_account_id}}", {{this.args.settings.embed_marketo_form_id}});
+  </script>
+</div>
