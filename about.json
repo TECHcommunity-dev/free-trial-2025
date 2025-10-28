@@ -1,0 +1,13 @@
+{
+  "name": "embed-marketo-after-post",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Your Name or Team",
+      "url": "https://yourcompany.com"
+    }
+  ],
+  "license": "MIT",
+  "required_version": "latest",
+  "description": "Embed a Marketo form after a specific post in a specific topic."
+}
